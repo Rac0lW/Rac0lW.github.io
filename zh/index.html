@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>绘画练习室 Draw Practice Lab – iPad / iPhone 绘画基本功练习 App</title>
+  <meta name="description" content="绘画练习室是一款 iPad 和 iPhone 上的绘画基本功练习 App。用 Apple Pencil 练习控线、几何形状、比例、透视、明度与人体结构，每次画完立即看到具体的调整建议。">
+  <meta name="keywords" content="绘画练习, 绘画练习App, 绘画基本功, 控线练习, 透视练习, 椭圆练习, 明度练习, 人体结构, 艺用解剖, iPad 画画, Apple Pencil">
+  <meta name="author" content="Racol Wu">
+  <meta name="theme-color" content="#131110">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://rac0lw.github.io/zh/">
+  <link rel="alternate" hreflang="en" href="https://rac0lw.github.io/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://rac0lw.github.io/zh/">
+  <link rel="alternate" hreflang="x-default" href="https://rac0lw.github.io/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="绘画练习室">
+  <meta property="og:title" content="绘画练习室 – 每一笔都有反馈的绘画练习">
+  <meta property="og:description" content="iPad / iPhone 上的绘画基本功短练习。用 Apple Pencil 画，马上知道哪里要调整，再画一次。">
+  <meta property="og:url" content="https://rac0lw.github.io/zh/">
+  <meta property="og:image" content="https://rac0lw.github.io/media/og-zh.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="绘画练习室的椭圆练习界面">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="绘画练习室 – 每一笔都有反馈的绘画练习">
+  <meta name="twitter:description" content="iPad / iPhone 上的绘画基本功短练习。用 Apple Pencil 画，马上知道哪里要调整，再画一次。">
+  <meta name="twitter:image" content="https://rac0lw.github.io/media/og-zh.png">
+  <link rel="stylesheet" href="/media/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MobileApplication",
+        "@id": "https://rac0lw.github.io/#app",
+        "name": "绘画练习室",
+        "alternateName": "Draw Practice Lab",
+        "url": "https://rac0lw.github.io/zh/",
+        "description": "iPad 和 iPhone 上的绘画基本功练习 App，用短练习和具体反馈练习控线、形状、比例、透视、明度、色彩与人体结构。",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "iOS, iPadOS",
+        "inLanguage": ["zh-Hans", "zh-Hant", "en", "ja", "ko"],
+        "image": "https://rac0lw.github.io/media/icon-512.png",
+        "screenshot": [
+          "https://rac0lw.github.io/media/zh-ellipse.webp",
+          "https://rac0lw.github.io/media/02-practice-progress.webp",
+          "https://rac0lw.github.io/media/03-milestones.webp"
+        ],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "免费下载，可一次性购买完整版" },
+        "author": { "@type": "Person", "name": "Racol Wu", "email": "racolw@163.com" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "必须用 Apple Pencil 吗？", "acceptedAnswer": { "@type": "Answer", "text": "不必须。Apple Pencil 手感最自然，但所有练习都可以用手指完成。" } },
+          { "@type": "Question", "name": "绘画练习室免费吗？", "acceptedAnswer": { "@type": "Answer", "text": "免费下载，五项基础形状练习免费。一次性购买完整版即可永久解锁全部进阶练习，没有订阅。" } },
+          { "@type": "Question", "name": "我的画会被上传吗？", "acceptedAnswer": { "@type": "Answer", "text": "不会。绘画分析在设备上完成，练习记录保存在本机。App 没有账号、广告和追踪。" } },
+          { "@type": "Question", "name": "评分是 AI 判断的吗？", "acceptedAnswer": { "@type": "Answer", "text": "不是。每次练习都按几何方法与目标逐项比较，同一幅画的结果始终一致，反馈会直接指出要改的地方。" } }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/zh/"><img src="/media/icon-512.png" alt="" width="30" height="30"><span>绘画练习室</span></a>
+    <nav aria-label="主导航">
+      <a class="hide-sm" href="#exercises">练习内容</a>
+      <a class="hide-sm" href="#pricing">价格</a>
+      <a class="hide-sm" href="#faq">常见问题</a>
+      <a class="lang" href="/" hreflang="en" lang="en">English</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero wrap">
+    <p class="eyebrow">iPad · iPhone</p>
+    <h1>每一笔，都知道哪里要改</h1>
+    <p class="lede">绘画练习室把绘画基本功拆成一个个短练习。用 Apple Pencil 画一条线、一个椭圆或一个透视立方体，马上看到偏差在哪里，然后再画一次。</p>
+    <div class="cta" id="download">
+      <!-- App Store 链接：上架后替换 href 并去掉 aria-disabled。 -->
+      <a class="btn primary" href="#download" aria-disabled="true">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.37 12.6c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.47.83-.72 0-1.82-.81-3-.79-1.54.02-2.96.9-3.75 2.27-1.6 2.78-.41 6.88 1.15 9.13.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.77.74 2.98.72 1.23-.02 2.01-1.12 2.76-2.23.87-1.28 1.23-2.52 1.25-2.58-.03-.01-2.4-.92-2.42-3.65zM14.1 5.86c.63-.77 1.06-1.83.94-2.89-.91.04-2.01.61-2.66 1.37-.58.67-1.09 1.75-.96 2.79 1.02.08 2.05-.51 2.68-1.27z"/></svg>
+        即将登陆 App Store
+      </a>
+      <a class="btn" href="#exercises">看看有哪些练习</a>
+    </div>
+    <p class="note">免费下载 · 5 项练习免费 · 一次买断，无订阅</p>
+    <img class="shot" src="/media/zh-ellipse.webp" width="1600" height="1162" alt="绘画练习室的椭圆练习：左侧是目标椭圆，右侧是手绘结果，下方显示 76.8 分和调整建议">
+  </div>
+
+  <section>
+    <div class="wrap">
+      <h2>看、画、改</h2>
+      <p class="section-lede">一轮只要几秒钟，可以反复练，直到手形成记忆。</p>
+      <ol class="steps">
+        <li><h3>观察目标</h3><p>仔细看目标形状，也可以开启“快闪”，只看几秒后凭记忆画。</p></li>
+        <li><h3>徒手画出来</h3><p>支持 Apple Pencil 和触控，支持压感、多笔拼接和笔刷防抖。</p></li>
+        <li><h3>查看反馈</h3><p>给出分数和具体建议，比如“整体方向偏差 13.2°”“轮廓没有闭合”。</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="exercises">
+    <div class="wrap">
+      <h2>五大类，22 个练习</h2>
+      <p class="section-lede">从控线和简单形状开始，逐步练习比例、透视、明度和人体。目标可以调整或随机生成，每一轮都不一样。</p>
+      <div class="groups">
+        <article class="group"><header><h3>基础形状</h3><span class="tag free">免费 · 5</span></header><p>矩形、三角形、多边形、椭圆、直线，打好稳定控线的底子。</p></article>
+        <article class="group"><header><h3>比例与定位</h3><span class="tag">4</span></header><p>整体比例、中点、角度判断、线段比例，训练眼睛的测量能力。</p></article>
+        <article class="group"><header><h3>透视与空间</h3><span class="tag">3</span></header><p>透视正方体、体块补全，以及可旋转参考的三维空间定位。</p></article>
+        <article class="group"><header><h3>明度与色彩</h3><span class="tag">3</span></header><p>判断明度、读懂受光球体的明暗结构、匹配颜色。</p></article>
+        <article class="group"><header><h3>人体</h3><span class="tag">7</span></header><p>人体体面、头部定位、部位练习，以及男女肌肉与骨骼的交互式三维模型。</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>进步看得见</h2>
+      <p class="section-lede">每次保存的成绩都会进入练习记录，进步用数字说话，不靠感觉。</p>
+      <div class="split">
+        <figure>
+          <img src="/media/02-practice-progress.webp" width="1600" height="1162" loading="lazy" alt="练习数据页面：有效练习时长、练习次数、平均分和每日练习时间">
+          <figcaption>每个练习的有效时长、次数、平均分和趋势，支持导出 CSV 和 JSON 备份。</figcaption>
+        </figure>
+        <figure>
+          <img src="/media/03-milestones.webp" width="1600" height="1162" loading="lazy" alt="里程碑页面：徽章，以及每个练习的入门、熟练、精通等级">
+          <figcaption>里程碑与徽章，分为入门、熟练、精通三级。解锁后永久保留。</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>隐私优先</h2>
+      <div class="facts">
+        <div class="fact"><h3>在本机分析</h3><p>绘画分析在设备上完成，笔迹不会上传。</p></div>
+        <div class="fact"><h3>无需账号</h3><p>不用注册，没有广告、追踪和统计脚本。</p></div>
+        <div class="fact"><h3>评分稳定</h3><p>基于几何测量，不靠 AI 猜测。同一幅画，结果始终一致。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="wrap">
+      <h2>价格简单</h2>
+      <p class="section-lede">基础练习免费试用，其余内容一次购买，永久拥有。</p>
+      <div class="price">
+        <div class="plan">
+          <h3>免费</h3>
+          <p class="sub">免费下载</p>
+          <ul>
+            <li>全部 5 项基础形状练习</li>
+            <li>练习数据、图表与备份</li>
+            <li>里程碑与徽章</li>
+          </ul>
+        </div>
+        <div class="plan pro">
+          <h3>完整版</h3>
+          <p class="sub">一次性 App 内购买</p>
+          <ul>
+            <li>全部 17 项进阶练习</li>
+            <li>比例、透视、明度、色彩与人体</li>
+            <li>没有订阅，可在你的设备上恢复购买</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="wrap">
+      <h2>常见问题</h2>
+      <details><summary>必须用 Apple Pencil 吗？</summary><p>不必须。Apple Pencil 手感最自然，但所有练习都可以用手指完成。</p></details>
+      <details><summary>绘画练习室免费吗？</summary><p>免费下载，五项基础形状练习免费。一次性购买完整版即可永久解锁全部进阶练习，没有订阅。</p></details>
+      <details><summary>我的画会被上传吗？</summary><p>不会。绘画分析在设备上完成，练习记录保存在本机。App 没有账号、广告和追踪。详见<a href="/draw-practice-lab/privacy.html#chinese">隐私政策</a>。</p></details>
+      <details><summary>评分是 AI 判断的吗？</summary><p>不是。每次练习都按几何方法与目标逐项比较，同一幅画的结果始终一致，反馈会直接指出要改的地方。</p></details>
+      <details><summary>支持哪些语言？哪些地区可以下载？</summary><p>支持简体中文、繁体中文、英文、日文和韩文。App 暂未在中国大陆 App Store 上架，上架后，香港、澳门、台湾及其他地区均可下载。</p></details>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="wrap">
+      <h2>每天几分钟，积少成多</h2>
+      <p class="section-lede">绘画练习室即将登陆 App Store，支持 iPad 和 iPhone。</p>
+      <div class="cta"><a class="btn primary" href="#download" aria-disabled="true">即将登陆 App Store</a></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Racol Wu · <a href="mailto:racolw@163.com">racolw@163.com</a></p>
+    <nav aria-label="页脚">
+      <a href="/draw-practice-lab/privacy.html#chinese">隐私政策</a>
+      <a href="/" hreflang="en" lang="en">English</a>
+      <a href="/legacy.html" rel="nofollow">旧版网页（导出练习记录）</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>

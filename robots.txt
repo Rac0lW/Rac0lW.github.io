@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /legacy.html
+
+Sitemap: https://rac0lw.github.io/sitemap.xml
